@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        // tableviewのCellにCustomCellを設定
+        tableView.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomCell")
+
         // tableviewのイベントをこのViewControllerに記述するための設定
         tableView.dataSource = self
         
@@ -42,7 +45,7 @@ extension ViewController: UITableViewDataSource {
     // Cellの設定（必須）
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //カスタムセルの設定
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! PersonTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! CustomTableViewCell
         cell.setup(person: person[indexPath.row])
         return cell
     }

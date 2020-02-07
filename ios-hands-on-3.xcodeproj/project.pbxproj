@@ -17,6 +17,8 @@
 		392EA1C923ED2CC30042A706 /* ios_hands_on_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1C823ED2CC30042A706 /* ios_hands_on_3UITests.swift */; };
 		392EA1D723ED40EA0042A706 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1D623ED40EA0042A706 /* Person.swift */; };
 		392EA1D923ED446C0042A706 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */; };
+		392EA1E023ED4A6C0042A706 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1DE23ED4A6C0042A706 /* CustomTableViewCell.swift */; };
+		392EA1E123ED4A6C0042A706 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392EA1DF23ED4A6C0042A706 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		392EA1CA23ED2CC30042A706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		392EA1D623ED40EA0042A706 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		392EA1DE23ED4A6C0042A706 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		392EA1DF23ED4A6C0042A706 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				392EA1B423ED2CC30042A706 /* Info.plist */,
 				392EA1D623ED40EA0042A706 /* Person.swift */,
 				392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */,
+				392EA1DE23ED4A6C0042A706 /* CustomTableViewCell.swift */,
+				392EA1DF23ED4A6C0042A706 /* CustomTableViewCell.xib */,
 			);
 			path = "ios-hands-on-3";
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			files = (
 				392EA1B323ED2CC30042A706 /* LaunchScreen.storyboard in Resources */,
 				392EA1B023ED2CC30042A706 /* Assets.xcassets in Resources */,
+				392EA1E123ED4A6C0042A706 /* CustomTableViewCell.xib in Resources */,
 				392EA1AE23ED2CC20042A706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392EA1E023ED4A6C0042A706 /* CustomTableViewCell.swift in Sources */,
 				392EA1AB23ED2CC20042A706 /* ViewController.swift in Sources */,
 				392EA1A723ED2CC20042A706 /* AppDelegate.swift in Sources */,
 				392EA1D723ED40EA0042A706 /* Person.swift in Sources */,
