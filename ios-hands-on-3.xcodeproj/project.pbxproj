@@ -15,6 +15,8 @@
 		392EA1B323ED2CC30042A706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392EA1B123ED2CC30042A706 /* LaunchScreen.storyboard */; };
 		392EA1BE23ED2CC30042A706 /* ios_hands_on_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1BD23ED2CC30042A706 /* ios_hands_on_3Tests.swift */; };
 		392EA1C923ED2CC30042A706 /* ios_hands_on_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1C823ED2CC30042A706 /* ios_hands_on_3UITests.swift */; };
+		392EA1D723ED40EA0042A706 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1D623ED40EA0042A706 /* Person.swift */; };
+		392EA1D923ED446C0042A706 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		392EA1C423ED2CC30042A706 /* ios-hands-on-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hands-on-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		392EA1C823ED2CC30042A706 /* ios_hands_on_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_hands_on_3UITests.swift; sourceTree = "<group>"; };
 		392EA1CA23ED2CC30042A706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392EA1D623ED40EA0042A706 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				392EA1AF23ED2CC30042A706 /* Assets.xcassets */,
 				392EA1B123ED2CC30042A706 /* LaunchScreen.storyboard */,
 				392EA1B423ED2CC30042A706 /* Info.plist */,
+				392EA1D623ED40EA0042A706 /* Person.swift */,
+				392EA1D823ED446C0042A706 /* PersonTableViewCell.swift */,
 			);
 			path = "ios-hands-on-3";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				392EA1AB23ED2CC20042A706 /* ViewController.swift in Sources */,
 				392EA1A723ED2CC20042A706 /* AppDelegate.swift in Sources */,
+				392EA1D723ED40EA0042A706 /* Person.swift in Sources */,
+				392EA1D923ED446C0042A706 /* PersonTableViewCell.swift in Sources */,
 				392EA1A923ED2CC20042A706 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

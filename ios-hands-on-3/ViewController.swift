@@ -12,7 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let person:[String] = ["Tanaka", "Sato", "Suzuki", "Yamada"]
+    let person:[Person] = [
+        Person(name: "Tanaka", age: 20),
+        Person(name: "Sato",   age: 25),
+        Person(name: "Suzuki", age: 30),
+        Person(name: "Yamada", age: 40)
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +41,9 @@ extension ViewController: UITableViewDataSource {
     
     // Cellの設定（必須）
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        //全部同じ内容
-        //cell.textLabel?.text = "This is Cell."
-        //配列の内容をそれぞれ設定
-        cell.textLabel?.text = person[indexPath.row]
+        //カスタムセルの設定
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! PersonTableViewCell
+        cell.setup(person: person[indexPath.row])
         return cell
     }
     
